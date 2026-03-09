@@ -12,7 +12,7 @@ const Vote7 = () => {
                 
                 <button 
                     className="next-button" 
-                    onClick={() => navigate("/index")}
+                    onClick={() => navigate("/")}
                     style={{ marginTop: '20px' }}
                 >
                     Retour
