@@ -1,12 +1,11 @@
 import React from "react";
-
 import "./vote.scss";
 
 const Vote = () => {
 	return (
 		<div className="vote">
 			{/* Bouton Retour en haut à gauche */}
-			<button className="back-button" onClick={() => window.location.href = "/index.tsx"}>
+			<button className="back-button" onClick={() => window.location.href = "/index"}>
 				<img src="/icons/arrow-left.svg" alt="" />
 				<span>Retour</span>
 			</button>
@@ -21,7 +20,7 @@ const Vote = () => {
 					préparer une journée encore plus adaptée à vos envies.
 				</p>
 
-				<button className="next-button">
+				<button className="next-button" onClick={() => window.location.href = "/vote1"}>
 					Suivant
 				</button>
 			</main>
