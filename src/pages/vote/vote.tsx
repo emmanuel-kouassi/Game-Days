@@ -4,7 +4,7 @@ import "./vote.scss";
 const Vote = () => {
 	return (
 		<div className="vote">
-			{/* Bouton Retour en haut à gauche */}
+
 			<button className="back-button" onClick={() => window.location.href = "/index"}>
 				<img src="/icons/arrow-left.svg" alt="" />
 				<span>Retour</span>

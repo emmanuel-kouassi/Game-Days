@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./vote.scss"; // On utilise ton fichier SCSS existant
+import "./vote.scss"; 
 
 const Vote5 = () => {
     const navigate = useNavigate();
@@ -15,7 +15,7 @@ const Vote5 = () => {
                     Maintenant, place à la partie la plus attendue...
                 </p>
 
-                {/* Bouton final pour accéder au vote des jeux */}
+
                 <button className="next-button" onClick={() => window.location.href = "/vote6"}>
                     Voter maintenant 
                     <img 

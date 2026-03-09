@@ -6,7 +6,7 @@ const Vote6 = () => {
     const navigate = useNavigate();
     const [selectedGames, setSelectedGames] = useState<string[]>([]);
 
-    // Liste complète des jeux issus de tes captures
+
     const gamesList = [
         "Mario Kart", "Mario Party", "Just Dance", "Gang Beasts", "FC 25/26",
         "NBA 2k26", "Smash Bros Ultimate", "Dragon Ball Fighter Z", "Naruto Storm 4",
