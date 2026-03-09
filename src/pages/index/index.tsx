@@ -267,7 +267,7 @@ const Index = () => {
 						officiels, des jeux <br /> multijoueurs canapé et des
 						jeux <br /> VR proposés sur place.
 					</p>
-					<button className="voir">
+					<button className="voir" onClick={() => window.location.href = "/vote"}>
 						<span>Voter maintenant</span>
 						<img src="/icons/arrowRight.svg" alt="" />
 					</button>
